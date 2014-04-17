@@ -1,9 +1,10 @@
-<?php
+﻿<?php
 require_once "block/config.php";//подключаю файл
 session_start(); 
 $db = mysql_connect(HOST,USER,PASS);
+$db = mysql_connect(HOST,USER,PASS);
+
 	
-		
 		mysql_select_db(DB,$db);
 		
 
